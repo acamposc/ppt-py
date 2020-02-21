@@ -1,3 +1,6 @@
 *pptx*
 *cache*
 *cpython-38*
+env.sh
+creds/*
+__pycache__*

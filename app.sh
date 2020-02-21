@@ -2,6 +2,8 @@
 #########################################################
 
 ## run in cloud build
+ #pip3 install google.cloud
+ #pip3 install google.auth
  #pip3 install numpy
  #pip3 install pandas --no-build-isolation
  #pip3 install xlrd
@@ -10,5 +12,7 @@
  # not install pip3 install datatable
  # not used here yet datatable requires python3.7+
 
+
+source env.sh
 # run anywhere
 PYTHONIOENCODING=utf-8 python3.8 app.py
